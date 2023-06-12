@@ -1,0 +1,10 @@
+==== template backend
+https://www.bootstrapdash.com/product/skydash-free
+
+
+===== when cannot push to github 
+after generate new token
+git remote set-url origin https://<token>@github.com/<username>/<repo>
+
+===== emoji
+https://emojipedia.org/
