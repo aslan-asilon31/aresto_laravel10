@@ -8,6 +8,10 @@
 </ol>
 
 <ol>
+<a href="#database">💠 Database Designs 📚</a>
+</ol>
+
+<ol>
 <a href="#analysis">💠 system analysis and design 📂</a>
 </ol>
 </div>
@@ -30,6 +34,13 @@
 ![ss6](https://user-images.githubusercontent.com/116990574/235449462-30ebfc31-10fc-4c97-b6e4-2c695b552b32.png)
 
 ![ss7](https://user-images.githubusercontent.com/116990574/235449482-e8e0c4a7-1e9f-40f5-9cc1-5b5074166a8e.png)
+
+</div>
+
+<div class="" id="database">
+## 💠 Database designs
+
+![aresto_db](https://github.com/aslan-asilon31/aresto_laravel10_spatie/assets/116990574/02075ff1-8730-4df3-9cf6-d2e216e0acda)
 
 </div>
 
