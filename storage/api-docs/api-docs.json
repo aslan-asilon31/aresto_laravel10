@@ -1,0 +1,53 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Documentation for Aresto Project",
+        "description": "By Sulaslan Setiawan || I am currently developing a web API to build a microservices-based application. The web API serves as a central component for communication and data exchange among various microservices within the application architecture. By leveraging the principles of microservices, this API facilitates the creation of loosely-coupled, independently deployable services that collectively contribute to the overall functionality of the application.",
+        "contact": {
+            "email": "sulaslansetiawan3@gmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8001/api/v1",
+            "description": "API Documentation for Aresto Project"
+        }
+    ],
+    "paths": {
+        "/User": {
+            "get": {
+                "tags": [
+                    "User"
+                ],
+                "summary": "User Data",
+                "description": "Get User Data",
+                "operationId": "User",
+                "responses": {
+                    "200": {
+                        "description": "Ok",
+                        "content": {
+                            "application/json": {
+                                "schema": {},
+                                "example": {
+                                    "success": true,
+                                    "message": "Success to get user data",
+                                    "data": [
+                                        {
+                                            "id": "1",
+                                            "name": "User"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
