@@ -6,6 +6,7 @@ use App\Http\Controllers\CategoryDetailController;
 use App\Http\Controllers\MemberController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\Auth\SocialiteController;
 use App\Http\Controllers\OrderDetailController;
 use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\RestaurantController;
@@ -30,6 +31,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/auth/{provider}', [SocialiteController::class, 'redirectToProvider']);
+Route::get('/auth/{provider}/callback', [SocialiteController::class, 'handleProvideCallback']);
 
 Route::resource('categories', CategoryController::class);
 Route::resource('categorydetails', CategoryDetailController::class);

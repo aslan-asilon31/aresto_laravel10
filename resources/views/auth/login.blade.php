@@ -64,6 +64,25 @@
                                 @endif
                             </div>
                         </div>
+
+                        <div class="col-lg-12 ">
+                            Login with other social medias <br>
+                            <a href="/auth/google" class="">
+                                <img style="width:50px;height:50px;" src="{{ asset('3d-icon/3d-icon-gmail.png') }}" alt="">
+                            </a>
+                            <a href="/auth/github" class="">
+                                <img style="width:40px;height:40px;" src="{{ asset('3d-icon/3d-icon-github.png') }}" alt="">
+                            </a>
+                            <a href="/auth/facebook" class="">
+                                <img style="width:50px;height:50px;" src="{{ asset('3d-icon/3d-icon-facebook.png') }}" alt="">
+                            </a>
+                            <a href="/auth/twitter" class="">
+                                <img style="width:60px;height:60px;" src="{{ asset('3d-icon/3d-icon-twitter.png') }}" alt="">
+                            </a>
+                            <a href="/auth/discord" class="">
+                                <img style="width:50px;height:50px;" src="{{ asset('3d-icon/3d-icon-discord.png') }}" alt="">
+                            </a>
+                        </div>
                     </form>
                 </div>
             </div>
